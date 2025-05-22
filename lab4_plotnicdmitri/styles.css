@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+table, th, td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 8px;
+}
+tr.legendary {
+  background-color: gold;
+}
+tr.common {
+  background-color: #eee;
+}
+.fade-out {
+  transition: opacity 0.5s ease-out;
+  opacity: 0;
+}
